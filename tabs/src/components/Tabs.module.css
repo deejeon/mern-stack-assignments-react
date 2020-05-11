@@ -1,0 +1,31 @@
+.tabContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBox {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.current {
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    background: black;
+    color: white;
+    transition-property: background;
+    transition-duration: 0.5s;
+}
+
+.notCurrent {
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: 0.5s;
+}
