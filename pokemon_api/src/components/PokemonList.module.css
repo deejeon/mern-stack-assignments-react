@@ -1,0 +1,14 @@
+button {
+    margin-left: 5px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #282c34; /* Green */
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
